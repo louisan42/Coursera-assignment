@@ -1,0 +1,27 @@
+body{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+}
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 2px solid black;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+  
+  /* .navbar-brand h1 {
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+  } */
+  /* .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  */

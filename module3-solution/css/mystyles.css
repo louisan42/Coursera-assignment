@@ -8,20 +8,32 @@ body{
     border: 2px solid black;
   }
   
-  .navbar-brand {
-    padding-top: 25px;
-    padding-left: 15px;
+  .navbar-nav, .navbar {
+      padding: 0;
+      width: 100%;
+    background-color: whitesmoke;
   }
   
-  /* .navbar-brand h1 {
-    text-align: left;
+.navbar-light .navbar-toggler{
+    border: 2px solid black;
+    margin-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
     color: black;
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-  } */
+}
+  
+  .navbar-brand h1 {
+   
+    color: black;
+    padding: 20px 30px;
+  } 
   /* .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
   }
   */
+  div > hr{
+      border: 1px solid black;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
